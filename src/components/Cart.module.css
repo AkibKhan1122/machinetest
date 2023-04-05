@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.itemContainer {
+  margin-top: 15px;
+  width: 80%;
+  /* height: 65vh; */
+  overflow-y: scroll;
+  border-radius: 10px;
+  padding: 0 20px;
+  background-color: #a09b63;
+}
+
+.itemContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.itemContainer {
+  margin: 34px;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.totalprice {
+  display: flex;
+  justify-content: end;
+  max-width: 83%;
+  margin: 10px auto;
+}
+
+.totalContainer {
+  /* text-align: end; */
+}
+
+.totalContainer h1 {
+  margin: 10px;
+}
+
+.totalContainer button {
+  padding: 10px;
+  background-color: skyblue;
+  border: none;
+  border-radius: 10px;
+}
